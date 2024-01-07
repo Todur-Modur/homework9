@@ -118,4 +118,19 @@ a {
     align-items: center;
     padding-left: 82px;
 }
-
+.category_weather{
+    width: 267px;
+    text-align: center;
+}
+.category_title{
+    color:#1E1D4C;
+    font-size: 20px;
+    font-weight: 600;
+}
+.category_title_pad{
+    color:#1E1D4C;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -20px;
+    /*треба вирівняти блок з бест флайтс */
+}
