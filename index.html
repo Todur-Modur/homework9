@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>Jadoo</title>
 </head>
 
@@ -22,7 +25,7 @@
                     <li>Flights</li>
                     <li>Bookings</li>
                     <li>Login</li>
-                    <li>Sign up</li>
+                    <li><button class="header_btn">Sign up</button></li>
                     <li>
                         EN
                         <svg xmlns="http://www.w3.org/2000/svg" width="10" height="6" viewBox="0 0 10 6" fill="none">
@@ -48,15 +51,17 @@
                         Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed
                         listening. Park gate sell they west hard for the.
                     </p>
-                    <p>
-                        <button class="hero_button">
-                            Find out more
-                        </button>
-                    </p>
-                    <p>
-                        <img src="assets/play button.svg" alt="play button">
-                        Play Demo
-                    </p>
+                    <div class="hero__buttons">
+                        <p>
+                            <button class="hero_button">
+                                Find out more
+                            </button>
+                        </p>
+                        <p class="play-btn">
+                            <img src="assets/play button.svg" alt="play button">
+                        </p>
+                        <p> Play Demo</p>
+                    </div>
                 </div>
                 <div class="hero_images">
                     <img src="/assets/girl.png" alt="girl">
@@ -308,8 +313,6 @@
             <p class="footer_rights">All rights reserved@jadoo.co</p>
         </footer>
     </main>
-
-
 </body>
 
 </html>

@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    max-width: 1440px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #212832;
+    font-family: poppins sans-serif;
+    background: url(../assets/decore_yellow.svg);
+    background-position: right top;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header block */
+
+.header {
+    max-width: 1440px;
+    margin: 0 auto;
+  
+}
+.header__wrapper {
+    padding: 48px 200px 134px 82px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list{
+    display: flex;
+    gap: 94px;
+    align-items: center;
+    font-size: 17px;
+}
+.header_btn{
+    background: none;
+    width: 102px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+/* hero block */
+
+.wrapper__hero{
+    display: flex;
+    padding-left: 82px;
+}
+.red_title{
+    color: #DF6951;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.black_tittle{
+    width: 545px;
+    font-size: 84px;
+    font-weight: 700;
+    line-height: 89px;
+    letter-spacing: -3.36px;
+}
+.title_description{
+    color: #5E6282;
+    font-weight: 500;
+    line-height: 30px; 
+}
+.hero__buttons{
+    display: flex;
+    gap: 44px;
+    align-items: center;
+    margin-top: -40px;
+}
+.hero_button{
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    background: #F1A501;
+    box-shadow: 0px 20px 35px 0px rgba(241, 165, 1, 0.15);
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+.play-btn{
+    margin-top: 50px;
+    text-align: center;
+    margin-right: -50px;
+}
+
+/* category block */
+
+.small_title{
+    color: #5E6282;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+.section_title{
+    color: #14183E;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.category_offers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 82px;
+}
+
