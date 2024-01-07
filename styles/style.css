@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     max-width: 1440px;
     font-weight: 400;
@@ -27,21 +28,24 @@ a {
 .header {
     max-width: 1440px;
     margin: 0 auto;
-  
+
 }
+
 .header__wrapper {
     padding: 48px 200px 134px 82px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.header__list{
+
+.header__list {
     display: flex;
     gap: 94px;
     align-items: center;
     font-size: 17px;
 }
-.header_btn{
+
+.header_btn {
     background: none;
     width: 102px;
     height: 40px;
@@ -51,35 +55,40 @@ a {
 
 /* hero block */
 
-.wrapper__hero{
+.wrapper__hero {
     display: flex;
     padding-left: 82px;
 }
-.red_title{
+
+.red_title {
     color: #DF6951;
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
 }
-.black_tittle{
+
+.black_tittle {
     width: 545px;
     font-size: 84px;
     font-weight: 700;
     line-height: 89px;
     letter-spacing: -3.36px;
 }
-.title_description{
+
+.title_description {
     color: #5E6282;
     font-weight: 500;
-    line-height: 30px; 
+    line-height: 30px;
 }
-.hero__buttons{
+
+.hero__buttons {
     display: flex;
     gap: 44px;
     align-items: center;
     margin-top: -40px;
 }
-.hero_button{
+
+.hero_button {
     width: 170px;
     height: 60px;
     border-radius: 10px;
@@ -91,46 +100,161 @@ a {
     font-size: 18px;
     font-weight: 500;
 }
-.play-btn{
+
+.play-btn {
     margin-top: 50px;
     text-align: center;
     margin-right: -50px;
 }
 
+.hero_play {
+    color: #686D77;
+    font-size: 17px;
+    font-weight: 500;
+}
+
 /* category block */
 
-.small_title{
+.small_title {
     color: #5E6282;
     text-align: center;
     font-size: 18px;
     font-weight: 600;
 }
-.section_title{
+
+.section_title {
     color: #14183E;
     text-align: center;
     font-size: 50px;
     font-weight: 700;
     text-transform: capitalize;
 }
-.category_offers{
+
+.category_offers {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 82px;
 }
-.category_weather{
+
+.category_weather {
     width: 267px;
     text-align: center;
 }
-.category_title{
-    color:#1E1D4C;
+
+.category_title {
+    color: #1E1D4C;
     font-size: 20px;
     font-weight: 600;
 }
-.category_title_pad{
-    color:#1E1D4C;
+
+.category_title_desc {
+    color: #5E6282;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.category_title_pad {
+    color: #1E1D4C;
     font-size: 20px;
     font-weight: 600;
+    margin-top: -30px;
+}
+
+.plane_offer {
     margin-top: -20px;
-    /*треба вирівняти блок з бест флайтс */
+}
+
+.mic_background {
+    width: 50px;
+    height: 49px;
+    border-radius: 18px 5px 10px 5px;
+    background: #FFF1DA;
+    margin: -70px 00px 0px 130px;
+}
+
+.mic_pad {
+    margin-top: 20px;
+}
+
+.category_title-mic {
+    color: #1E1D4C;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.cust-margin {
+    margin-top: 20px;
+}
+
+/* top selling block */
+
+.dest-pad {
+    margin-top: 156px;
+}
+
+.destination {
+    display: flex;
+    justify-content: space-between;
+}
+
+.destination_city-description {
+    text-align: center;
+    margin-top: -170px;
+}
+
+.city-price {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px 0px 110px;
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 124.5%;
+}
+
+.time-trip {
+    text-align: left;
+    margin-left: 110px;
+    margin-top: 0px;
+    display: flex;
+    gap: 10px;
+    color: #5E6282;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 124.5%;
+}
+
+
+/* booking block */
+
+.booking {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 186px;
+    padding-left: 82px;
+}
+
+.small_title-book {
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.section_title-book {
+    width: 500px;
+    color: #14183E;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.three-steps {
+    display: flex;
+    gap: 20px;
+}
+.red-girl_section{
+    margin-right: 200px;
 }
