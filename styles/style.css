@@ -135,6 +135,7 @@ a {
     justify-content: space-between;
     align-items: center;
     padding-left: 82px;
+    padding-right: 82px;
 }
 
 .category_weather {
@@ -226,7 +227,6 @@ a {
     line-height: 124.5%;
 }
 
-
 /* booking block */
 
 .booking {
@@ -258,6 +258,16 @@ a {
     display: flex;
     gap: 20px;
     width: 327px;
+}
+.step_title{
+    color: #5E6282;
+    font-weight: 700;
+    line-height: 124.5%;
+}
+.step_title-desc{
+    color: #5E6282;
+    font-weight: 400;
+    line-height: 124.5%;
 }
 
 .red-girl_section{
