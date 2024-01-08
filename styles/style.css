@@ -32,7 +32,7 @@ a {
 }
 
 .header__wrapper {
-    padding: 48px 200px 134px 82px;
+    padding: 48px 200px 134px 140px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,9 +40,10 @@ a {
 
 .header__list {
     display: flex;
-    gap: 94px;
+    gap: 70px;
     align-items: center;
     font-size: 17px;
+    padding-left: 222px;
 }
 
 .header_btn {
@@ -53,11 +54,19 @@ a {
     border: 1px solid;
 }
 
+.en-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+
 /* hero block */
 
 .wrapper__hero {
     display: flex;
-    padding-left: 82px;
+    padding-left: 150px;
+
 }
 
 .red_title {
@@ -68,6 +77,7 @@ a {
 }
 
 .black_tittle {
+    margin-top: 0px;
     width: 545px;
     font-size: 84px;
     font-weight: 700;
@@ -76,9 +86,12 @@ a {
 }
 
 .title_description {
+    margin-top: -40px;
+    width: 477px;
     color: #5E6282;
     font-weight: 500;
     line-height: 30px;
+
 }
 
 .hero__buttons {
@@ -113,9 +126,14 @@ a {
     font-weight: 500;
 }
 
+.hero_images {
+    margin: -120px 0px 0px -120px;
+}
+
 /* category block */
 
 .small_title {
+    margin-top: 105px;
     color: #5E6282;
     text-align: center;
     font-size: 18px;
@@ -134,8 +152,8 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 82px;
-    padding-right: 82px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .category_weather {
@@ -198,7 +216,10 @@ a {
 .destination {
     display: flex;
     justify-content: space-between;
+    padding-left: 30px;
+
 }
+
 
 .destination_city-description {
     text-align: center;
@@ -227,16 +248,22 @@ a {
     line-height: 124.5%;
 }
 
+.bacground-decore {
+    background: url(../assets/Decore.svg) no-repeat;
+    background-position: 1340px 350px;
+}
+
 /* booking block */
 
 .booking {
     display: flex;
     justify-content: space-between;
     padding-top: 186px;
-    padding-left: 82px;
+    padding-left: 186px;
     background: url(../assets/ellipse_blue.png) no-repeat;
     background-position: 900px 120px;
     background-size: 400px;
+
 }
 
 .small_title-book {
@@ -259,18 +286,20 @@ a {
     gap: 20px;
     width: 327px;
 }
-.step_title{
+
+.step_title {
     color: #5E6282;
     font-weight: 700;
     line-height: 124.5%;
 }
-.step_title-desc{
+
+.step_title-desc {
     color: #5E6282;
     font-weight: 400;
     line-height: 124.5%;
 }
 
-.red-girl_section{
+.red-girl_section {
     padding: 20px 20px 20px 20px;
     width: 370px;
     height: 400px;
@@ -282,33 +311,39 @@ a {
     box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
 
 }
-.greece_trip{
+
+.greece_trip {
     color: #080809;
     font-size: 18px;
     font-weight: 500;
     line-height: 124.5%;
     letter-spacing: 0.27px;
 }
-.greece_trip-info{
+
+.greece_trip-info {
     color: #84829A;
     font-weight: 500;
     line-height: 124.5%;
     letter-spacing: -0.08px;
 }
-.red-girl_logos{
+
+.red-girl_logos {
     display: flex;
     gap: 18px;
     padding-top: 10px;
     padding-bottom: 30px;
 }
-.people_going{
+
+.people_going {
     display: flex;
     gap: 20px;
 }
-.people_going-heart{
+
+.people_going-heart {
     padding-left: 130px;
 }
-.red-girl_ongoing{
+
+.red-girl_ongoing {
     width: 300px;
     height: 129px;
     border-radius: 18px;
@@ -320,44 +355,131 @@ a {
     position: relative;
     margin: -220px 200px 20px 1000px;
 }
-.booking-relative{
+
+.booking-relative {
     position: relative;
 }
-.red-girl_ongoing-building{
+
+.red-girl_ongoing-building {
     border-radius: 45px;
 }
-.ongoing-title{
+
+.ongoing-title {
     color: #84829A;
     font-size: 14px;
     font-weight: 500;
     line-height: 124.5%;
     letter-spacing: -0.49px;
 }
-.ongoing-trip{
+
+.ongoing-trip {
     color: #080809;
     font-size: 18px;
     font-weight: 500;
     line-height: 124.5%;
     letter-spacing: -0.27px;
 }
-.ongoing-completed{
+
+.ongoing-completed {
     color: #080809;
     font-size: 14px;
     font-weight: 500;
     line-height: 124.5%;
     letter-spacing: -0.77px;
 }
-.ongoing-completed-percents{
-    color:#8A79DF;
+
+.ongoing-completed-percents {
+    color: #8A79DF;
     font-size: 14px;
     font-weight: 500;
     line-height: 124.5%;
     letter-spacing: -0.77px;
 }
 
-/* booking block */
+/* testimonials block */
 
-.testimonials{
+.testimonials {
     margin-top: 290px;
-    padding-left: 80px;
+    padding-left: 186px;
+    display: flex;
+    gap: 124px;
+    position: relative;
+}
+
+.pre-title {
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.testimonials_title {
+    width: 409px;
+    color: #14183E;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.comment {
+    width: 504px;
+    height: 245px;
+    border-radius: 10px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+    padding: 28px 68px 20px 34px;
+    position: relative;
+    z-index: 10;
+}
+
+.comment-text {
+    width: 402px;
+    color: #5E6282;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.comment-author {
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.comment-geo {
+    color: #5E6282;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.second_comment {
+    width: 502px;
+    height: 232px;
+    border-radius: 10px;
+    border: 2px solid var(--border-color, #F7F7F7);
+    box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+    padding-top: 130px;
+    padding-left: 34px;
+    position: relative;
+    z-index: 5;
+    margin: -170px 780px;
+}
+.comment_avatar{
+    position: relative;
+    z-index: 15;
+    margin: -340px 680px;
+}
+.vertical-selector{
+    position: relative;
+    z-index: 15;
+    margin: -510px 1310px;
+}
+
+/* testimonials block */
+
+.partners_list{
+    margin-top: 700px;
+    padding-left: 186px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
