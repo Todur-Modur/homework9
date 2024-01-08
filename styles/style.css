@@ -232,8 +232,11 @@ a {
 .booking {
     display: flex;
     justify-content: space-between;
-    margin-top: 186px;
+    padding-top: 186px;
     padding-left: 82px;
+    background: url(../assets/ellipse_blue.png) no-repeat;
+    background-position: 900px 120px;
+    background-size: 400px;
 }
 
 .small_title-book {
@@ -254,7 +257,97 @@ a {
 .three-steps {
     display: flex;
     gap: 20px;
+    width: 327px;
 }
+
 .red-girl_section{
-    margin-right: 200px;
+    padding: 20px 20px 20px 20px;
+    width: 370px;
+    height: 400px;
+    margin-top: 60px;
+    margin-right: 250px;
+    background-color: #FFF;
+    border-radius: 26px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+
+}
+.greece_trip{
+    color: #080809;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 124.5%;
+    letter-spacing: 0.27px;
+}
+.greece_trip-info{
+    color: #84829A;
+    font-weight: 500;
+    line-height: 124.5%;
+    letter-spacing: -0.08px;
+}
+.red-girl_logos{
+    display: flex;
+    gap: 18px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.people_going{
+    display: flex;
+    gap: 20px;
+}
+.people_going-heart{
+    padding-left: 130px;
+}
+.red-girl_ongoing{
+    width: 300px;
+    height: 129px;
+    border-radius: 18px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    margin: -220px 200px 20px 1000px;
+}
+.booking-relative{
+    position: relative;
+}
+.red-girl_ongoing-building{
+    border-radius: 45px;
+}
+.ongoing-title{
+    color: #84829A;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 124.5%;
+    letter-spacing: -0.49px;
+}
+.ongoing-trip{
+    color: #080809;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 124.5%;
+    letter-spacing: -0.27px;
+}
+.ongoing-completed{
+    color: #080809;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 124.5%;
+    letter-spacing: -0.77px;
+}
+.ongoing-completed-percents{
+    color:#8A79DF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 124.5%;
+    letter-spacing: -0.77px;
+}
+
+/* booking block */
+
+.testimonials{
+    margin-top: 290px;
+    padding-left: 80px;
 }
