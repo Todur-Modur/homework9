@@ -539,11 +539,11 @@ a {
     border-radius: 10px;
     border: none;
     padding-left: 30px;
-    background: url(/assets/e-mail_logo.svg) no-repeat ;
+    background: url(../assets/e-mail_logo.svg) no-repeat;
     background-position: center left;
     background: #FFF;
     /* не зрозумів, як зробити два бекграунди - або фон білий, або видно лого імейлу */
-    
+
 }
 
 
@@ -551,4 +551,82 @@ a {
 
 .footer_list {
     margin-top: 950px;
+    padding-left: 186px;
+    padding-right: 194px;
+    padding-bottom: 86px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 83px;
 }
+
+.footer-jadoo {
+    color: #181E4B;
+    font-size: 44px;
+    font-weight: 500;
+    margin-top: -50px;
+}
+
+.footer-jadoo_desc {
+    width: 207px;
+    color: #5E6282;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 124.5%;
+    margin-top: -25px;
+}
+
+.footer_title {
+    color: #080809;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 124.5%;
+}
+
+.footer_title_desc {
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.8;
+}
+
+.footer_discover_logos {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer_insta-logo {
+    width: 45px;
+    height: 45px;
+    background: url(../assets/bacground-insta.png) no-repeat;
+    background-position: center;
+    border-radius: 45px;
+    /* я фіг його зна, чого я не можу бекграунд поставити більшого розміру, а сам лого інсти меншого */
+}
+
+.footer_discover_text {
+    color: #5E6282;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 124.5%;
+    letter-spacing: 0.1px;
+}
+
+.footer_discover_apps {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer_rights {
+    text-align: center;
+    padding-bottom: 79px;
+    color: #5E6282;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 124.5%;
+}
+
