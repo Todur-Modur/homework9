@@ -52,6 +52,11 @@ a {
     height: 40px;
     border-radius: 5px;
     border: 1px solid;
+    translate: 0px;
+    transition: translate 0.3s ease;
+}
+.header_btn:hover{
+   translate: 10px 10px;
 }
 
 .en-selector {
@@ -112,6 +117,10 @@ a {
     text-align: center;
     font-size: 18px;
     font-weight: 500;
+    transition: rotate 0.5s ease;
+}
+.hero_button:hover{
+    rotate: 360deg;
 }
 
 .play-btn {
@@ -128,8 +137,12 @@ a {
 
 .hero_images {
     margin: -120px 0px 0px -120px;
+    transition: rotate 1s ease;
 }
+.hero_images:hover{
+    rotate: 360deg;
 
+}
 /* category block */
 
 .small_title {
@@ -138,6 +151,10 @@ a {
     text-align: center;
     font-size: 18px;
     font-weight: 600;
+    transition: skew 1s ease;
+}
+.small_title:hover{
+    transform: skew(30deg, 30deg);
 }
 
 .section_title {
@@ -205,6 +222,10 @@ a {
 
 .cust-margin {
     margin-top: 20px;
+}
+.scale-img:hover{
+    scale: 2;
+    transition: scale 0.5s ease;
 }
 
 /* top selling block */
