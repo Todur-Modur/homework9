@@ -1,17 +1,351 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>Jadoo</title>
 </head>
+
 <body>
     <header class="header">
         <div class="wrapper header__wrapper">
             <a href="/" class="header__home-link">
-                <img src="assets/Logo_vpn.png" alt="logo LaslesVPN">
+                <img src="assets/jadoo_logo.svg" alt="logo jadoo">
             </a>
+            <nav class="header__navigation">
+                <ul class="header__list">
+                    <li>Desitnations</li>
+                    <li>Hotels</li>
+                    <li>Flights</li>
+                    <li>Bookings</li>
+                    <li>Login</li>
+                    <li><button class="header_btn">Sign up</button></li>
+                    <li class="en-selector">
+                        EN
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="6" viewBox="0 0 10 6" fill="none">
+                            <path d="M0.5 0.5L5 5L9.5 0.5" stroke="#212832" />
+                        </svg>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- hero section -->
+        <section class="hero_section">
+            <div class="wrapper__hero">
+                <div>
+                    <h1 class="red_title">
+                        Best Destinations around the world
+                    </h1>
+                    <h2 class="black_tittle">
+                        Travel, enjoy and live a new and full life
+                    </h2>
+                    <p class="title_description">
+                        Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed
+                        listening. Park gate sell they west hard for the.
+                    </p>
+                    <div class="hero__buttons">
+                        <p>
+                            <button class="hero_button">
+                                Find out more
+                            </button>
+                        </p>
+                        <p class="play-btn">
+                            <img src="assets/play button.svg" alt="play button">
+                        </p>
+                        <p class="hero_play"> Play Demo</p>
+                    </div>
+                </div>
+                <div class="hero_images">
+                    <img src="assets/girl.png" alt="girl">
+                </div>
+            </div>
+        </section>
+        <!-- category section -->
+        <h2 class="small_title">
+            CATEGORY
+        </h2>
+        <h3 class="section_title">
+            We Offer Best Services
+        </h3>
+        <div class="category_offers">
+            <div class="category_weather">
+                <img class="scale-img" src="assets/weather_logo.svg" alt="weather img">
+                <p class="category_title">
+                    Calculated Weather
+                </p>
+                <p class="category_title_desc">
+                    Built Wicket longer admire do barton vanity itself do in it.
+                </p>
+            </div>
+            <div class="category_weather">
+                <img class="plane_offer scale-img" src="assets/plane_logo.svg" alt="plane img">
+                <p class="category_title_pad">
+                    Best Flights
+                </p>
+                <p class="category_title_desc">
+                    Engrossed listening. Park gate sell they west hard for the.
+                </p>
+            </div>
+            <div class="category_weather">
+                <img class="mic_pad scale-img" src="assets/microphone_logo.png" alt="microphone img">
+                <p class="mic_background"></p>
+                <p class="category_title-mic">
+                    Local Events
+                </p>
+                <p class="category_title_desc">
+                    Barton vanity itself do in it. Preferd to men it engrossed listening.
+                </p>
+            </div>
+            <div class="category_weather cust-margin">
+                <img class="scale-img" src="assets/mechanysm_logo.svg" alt="mechanysm img">
+                <p class="category_title">
+                    Customization
+                </p>
+                <p class="category_title_desc">
+                    We deliver outsourced aviation services for military customers.
+                </p>
+            </div>
+        </div>
+        <!-- Top Selling section -->
+        <div class="bacground-decore">
+            <h2 class="small_title dest-pad">
+                Top Selling
+            </h2>
+            <h3 class="section_title">
+                Top Destinations
+            </h3>
+            <div class="destination">
+                <div class="destination_city">
+                    <img src="assets/rome.png" alt="rome img">
+                    <div class="destination_city-description">
+                        <div class="city-price">
+                            <p>Rome, Italty</p>
+                            <p>$5,42k</p>
+                        </div>
+                        <p class="time-trip">
+                            <img src="assets/navigation_arrow.svg" alt="navigation arrow">
+                            10 Days Trip
+                        </p>
+                    </div>
+                </div>
+                <div class="destination_city">
+                    <img src="assets/london.png" alt="london img">
+                    <div class="destination_city-description">
+                        <div class="city-price">
+                            <p>London, UK</p>
+                            <p>$4.2k</p>
+                        </div>
+                        <p class="time-trip">
+                            <img src="assets/navigation_arrow.svg" alt="navigation arrow">
+                            12 Days Trip
+                        </p>
+                    </div>
+                </div>
+                <div class="destination_city">
+                    <img src="assets/europe.png" alt="europe img">
+                    <div class="destination_city-description">
+                        <div class="city-price">
+                            <p>Full Europe</p>
+                            <p>$15k</p>
+                        </div>
+                        <p class="time-trip">
+                            <img src="assets/navigation_arrow.svg" alt="navigation arrow">
+                            28 Days Trip
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- booking section -->
+        <div class="booking-relative">
+            <div class="booking">
+                <div class="booking_steps">
+                    <h2 class="small_title-book">
+                        Easy and Fast
+                    </h2>
+                    <h3 class="section_title-book">
+                        Book your next trip in 3 easy steps
+                    </h3>
+                    <div class="three-steps">
+                        <img src="assets/choose_destination.svg" alt="destination img">
+                        <ul>
+                            <li class="step_title">
+                                Choose Destination
+                            </li>
+                            <li class="step_title-desc">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="three-steps">
+                        <img src="assets/make_payment.svg" alt="payment img">
+                        <ul>
+                            <li class="step_title">
+                                Make Payment
+                            </li>
+                            <li class="step_title-desc">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="three-steps">
+                        <img src="assets/reach_airport.svg" alt="airport img">
+                        <ul>
+                            <li class="step_title">
+                                Reach Airport on Selected Date
+                            </li>
+                            <li class="step_title-desc">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="red-girl_section">
+                    <div class="red-girl_wraper">
+                        <img src="assets/girl_red-dress.png" alt="girl in a red dress">
+                        <p class="greece_trip">
+                            Trip To Greece
+                        </p>
+                        <p class="greece_trip-info">14-29 June | by Robbin joseph</p>
+                        <div class="red-girl_logos">
+                            <img src="assets/leaf.svg" alt="leaf logo">
+                            <img src="assets/map.svg" alt="map logo">
+                            <img src="assets/send.svg" alt="send arrow logo">
+                        </div>
+                        <div class="people_going">
+                            <img src="assets/building.svg" alt="buildings logo img">
+                            24 people going
+                            <img class="people_going-heart" src="assets/heart.svg" alt="heart logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="red-girl_ongoing">
+                <img class="red-girl_ongoing-building" src="assets/building_under-girl.png" alt="building under girl">
+                <ul>
+                    <li class="ongoing-title">Ongoing</li>
+                    <li class="ongoing-trip">Trip to rome</li>
+                    <li class="ongoing-completed"><span class="ongoing-completed-percents">40%</span> completed</li>
+                    <li><img src="assets/loading.svg" alt="40% loading"></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Testimonials section -->
+        <div class="testimonials">
+            <div class="about-us">
+                <h2 class="pre-title">
+                    Testimonials
+                </h2>
+                <h3 class="testimonials_title">
+                    What people say about Us.
+                </h3>
+                <img src="assets/dots.svg" alt="dots image">
+            </div>
+            <div class="comment">
+                <p class="comment-text">
+                    “On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew
+                    next. Of believed or diverted no.”</p>
+                <p class="comment-author">
+                    Mike taylor
+                </p>
+                <p class="comment-geo">
+                    Lahore, Pakistan
+                </p>
+            </div>
+        </div>
+        <div class="second_comment">
+            <p class="comment-author">Chris Thomas</p>
+            <p class="comment-geo">CEO of Red Button</p>
+        </div>
+        <div class="comment_avatar">
+            <img src="assets/men_head.svg" alt="men avatar">
+        </div>
+        <div>
+            <img class="vertical-selector" src="assets/vertical-arrows.png" alt="vertical selector">
+        </div>
+        <!-- partners section -->
+        <ul class="partners_list">
+            <li><img src="assets/axon.png" alt="axon logo"></li>
+            <li><img src="assets/jetstar.png" alt="jetstar logo"></li>
+            <li><img src="assets/expedia.png" alt="expedia logo"></li>
+            <li><img src="assets/qantas.png" alt="qantas logo"></li>
+            <li><img src="assets/alitalia.png" alt="alitalia logo"></li>
+        </ul>
+        <!-- subscribe section -->
+        <div class="subscribe">
+            <h2 class="subscribe_text">
+                Subscribe to get information, latest news and other
+                interesting offers about Cobham
+            </h2>
+            <div class="e-mail">
+                <form action="https://fom.in.ua/echo" method="get">
+                    <input class="url-email" type="email" placeholder="Your email" name="your email">
+                    <button class="red-button"> Subscribe </button>
+                </form>
+            </div>
+        </div>
+        <div class="tg-btn">
+            <img src="assets/tg_logo.svg" alt="tg logo">
+        </div>
+        <!-- footer section -->
+        <footer>
+            <div class="footer_list">
+                <div class="footer_jadoo">
+                    <p class="footer-jadoo">Jadoo.</p>
+                    <p class="footer-jadoo_desc">
+                        Book your trip in minute, get full Control for much longer.
+                    </p>
+                </div>
+                <div class="footer_lits-three">
+                    <p class="footer_title">Company</p>
+                    <ul class="footer_title_desc">
+                        <li>About</li>
+                        <li>Careers</li>
+                        <li>Mobile</li>
+                    </ul>
+                </div>
+                <div class="footer_lits-three">
+                    <p class="footer_title">Contact</p>
+                    <ul class="footer_title_desc">
+                        <li>Help/FAQ</li>
+                        <li>Press</li>
+                        <li>Affilates</li>
+                    </ul>
+                </div>
+                <div class="footer_lits-three">
+                    <p class="footer_title">More</p>
+                    <ul class="footer_title_desc"> 
+                        <li>Airlinefees</li>
+                        <li>Airline</li>
+                        <li>Low fare tips</li>
+                    </ul>
+                </div>
+                <div class="footer_discover">
+                    <ul class="footer_discover_logos">
+                        <li><img src="assets/facebook_logo.svg" alt="facebook logo"></li>
+                        <li><img class="footer_insta-logo" src="assets/instagram.svg" alt="instagram logo"></li>
+                        <li><img src="assets/twitter.svg" alt="twitter logo"></li>
+                    </ul>
+                    <p class="footer_discover_text">
+                        Discover our app
+                    </p>
+                    <div class="footer_discover_apps">
+                        <img src="assets/google-play.png" alt="">
+                        <img src="assets/appstore.svg" alt="app store">
+                    </div>
+                </div>
+            </div>
+            <p class="footer_rights">All rights reserved@jadoo.co</p>
+        </footer>
+    </main>
 </body>
+
 </html>

@@ -1,0 +1,653 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #212832;
+    font-family: poppins sans-serif;
+    background: url(../assets/decore_yellow.svg);
+    background-position: right top;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header block */
+
+.header {
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+.header__wrapper {
+    padding: 48px 200px 134px 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    font-size: 17px;
+    padding-left: 222px;
+}
+
+.header_btn {
+    background: none;
+    width: 102px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid;
+    translate: 0px;
+    transition: translate 0.3s ease;
+}
+.header_btn:hover{
+   translate: 10px 10px;
+}
+
+.en-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+
+/* hero block */
+
+.wrapper__hero {
+    display: flex;
+    padding-left: 150px;
+
+}
+
+.red_title {
+    color: #DF6951;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.black_tittle {
+    margin-top: 0px;
+    width: 545px;
+    font-size: 84px;
+    font-weight: 700;
+    line-height: 89px;
+    letter-spacing: -3.36px;
+}
+
+.title_description {
+    margin-top: -40px;
+    width: 477px;
+    color: #5E6282;
+    font-weight: 500;
+    line-height: 30px;
+
+}
+
+.hero__buttons {
+    display: flex;
+    gap: 44px;
+    align-items: center;
+    margin-top: -40px;
+}
+
+.hero_button {
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    background: #F1A501;
+    box-shadow: 0px 20px 35px 0px rgba(241, 165, 1, 0.15);
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    transition: rotate 0.5s ease;
+}
+.hero_button:hover{
+    rotate: 360deg;
+}
+
+.play-btn {
+    margin-top: 50px;
+    text-align: center;
+    margin-right: -50px;
+}
+
+.hero_play {
+    color: #686D77;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.hero_images {
+    margin: -120px 0px 0px -120px;
+    transition: rotate 1s ease;
+}
+.hero_images:hover{
+    rotate: 360deg;
+
+}
+/* category block */
+
+.small_title {
+    margin-top: 105px;
+    color: #5E6282;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    transition: skew 1s ease;
+}
+.small_title:hover{
+    transform: skew(30deg, 30deg);
+}
+
+.section_title {
+    color: #14183E;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.category_offers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.category_weather {
+    width: 267px;
+    text-align: center;
+}
+
+.category_title {
+    color: #1E1D4C;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.category_title_desc {
+    color: #5E6282;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.category_title_pad {
+    color: #1E1D4C;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -30px;
+}
+
+.plane_offer {
+    margin-top: -20px;
+}
+
+.mic_background {
+    width: 50px;
+    height: 49px;
+    border-radius: 18px 5px 10px 5px;
+    background: #FFF1DA;
+    margin: -70px 00px 0px 130px;
+}
+
+.mic_pad {
+    margin-top: 20px;
+}
+
+.category_title-mic {
+    color: #1E1D4C;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.cust-margin {
+    margin-top: 20px;
+}
+.scale-img:hover{
+    scale: 2;
+    transition: scale 0.5s ease;
+}
+
+/* top selling block */
+
+.dest-pad {
+    margin-top: 156px;
+}
+
+.destination {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+
+}
+
+
+.destination_city-description {
+    text-align: center;
+    margin-top: -170px;
+}
+
+.city-price {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px 0px 110px;
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 124.5%;
+}
+
+.time-trip {
+    text-align: left;
+    margin-left: 110px;
+    margin-top: 0px;
+    display: flex;
+    gap: 10px;
+    color: #5E6282;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 124.5%;
+}
+
+.bacground-decore {
+    background: url(../assets/Decore.svg) no-repeat;
+    background-position: 1340px 350px;
+}
+
+/* booking block */
+
+.booking {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 186px;
+    padding-left: 186px;
+    background: url(../assets/ellipse_blue.png) no-repeat;
+    background-position: 900px 120px;
+    background-size: 400px;
+
+}
+
+.small_title-book {
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.section_title-book {
+    width: 500px;
+    color: #14183E;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.three-steps {
+    display: flex;
+    gap: 20px;
+    width: 327px;
+}
+
+.step_title {
+    color: #5E6282;
+    font-weight: 700;
+    line-height: 124.5%;
+}
+
+.step_title-desc {
+    color: #5E6282;
+    font-weight: 400;
+    line-height: 124.5%;
+}
+
+.red-girl_section {
+    padding: 20px 20px 20px 20px;
+    width: 370px;
+    height: 400px;
+    margin-top: 60px;
+    margin-right: 250px;
+    background-color: #FFF;
+    border-radius: 26px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+
+}
+
+.greece_trip {
+    color: #080809;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 124.5%;
+    letter-spacing: 0.27px;
+}
+
+.greece_trip-info {
+    color: #84829A;
+    font-weight: 500;
+    line-height: 124.5%;
+    letter-spacing: -0.08px;
+}
+
+.red-girl_logos {
+    display: flex;
+    gap: 18px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.people_going {
+    display: flex;
+    gap: 20px;
+}
+
+.people_going-heart {
+    padding-left: 130px;
+}
+
+.red-girl_ongoing {
+    width: 300px;
+    height: 129px;
+    border-radius: 18px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    margin: -220px 200px 20px 1000px;
+}
+
+.booking-relative {
+    position: relative;
+}
+
+.red-girl_ongoing-building {
+    border-radius: 45px;
+}
+
+.ongoing-title {
+    color: #84829A;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 124.5%;
+    letter-spacing: -0.49px;
+}
+
+.ongoing-trip {
+    color: #080809;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 124.5%;
+    letter-spacing: -0.27px;
+}
+
+.ongoing-completed {
+    color: #080809;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 124.5%;
+    letter-spacing: -0.77px;
+}
+
+.ongoing-completed-percents {
+    color: #8A79DF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 124.5%;
+    letter-spacing: -0.77px;
+}
+
+/* testimonials block */
+
+.testimonials {
+    margin-top: 290px;
+    padding-left: 186px;
+    display: flex;
+    gap: 124px;
+    position: relative;
+}
+
+.pre-title {
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.testimonials_title {
+    width: 409px;
+    color: #14183E;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.comment {
+    width: 504px;
+    height: 245px;
+    border-radius: 10px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+    padding: 28px 68px 20px 34px;
+    position: relative;
+    z-index: 10;
+}
+
+.comment-text {
+    width: 402px;
+    color: #5E6282;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.comment-author {
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.comment-geo {
+    color: #5E6282;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.second_comment {
+    width: 502px;
+    height: 232px;
+    border-radius: 10px;
+    border: 2px solid var(--border-color, #F7F7F7);
+    box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+    padding-top: 130px;
+    padding-left: 34px;
+    position: relative;
+    z-index: 5;
+    margin: -170px 780px;
+}
+
+.comment_avatar {
+    position: relative;
+    z-index: 15;
+    margin: -340px 680px;
+}
+
+.vertical-selector {
+    position: relative;
+    z-index: 15;
+    margin: -510px 1310px;
+}
+
+/* partners block */
+
+.partners_list {
+    margin-top: 700px;
+    padding-left: 186px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* subscribe block */
+
+.subscribe {
+    position: relative;
+    z-index: 5;
+    margin-left: 135px;
+    width: 1170px;
+    height: 407px;
+    border-radius: 129px 20px 20px 20px;
+    background-color: #f7f5fd;
+}
+
+.tg-btn {
+    position: relative;
+    z-index: 20;
+    margin: -430px 1260px;
+}
+
+.subscribe_text {
+    width: 1159px;
+    height: 108px;
+    padding: 79px 155px 0px 156px;
+    color: #5E6282;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 54px;
+    text-align: center;
+}
+
+.red-button {
+    width: 180px;
+    height: 68px;
+    border-radius: 10px;
+    background: #FF946D;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.e-mail {
+    padding: 100px 0px 0px 252px;
+    display: flex;
+    gap: 30px;
+}
+
+.url-email {
+    width: 421px;
+    height: 68px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 30px;
+    background: url(../assets/e-mail_logo.svg) no-repeat;
+    background-position: center left;
+    background: #FFF;
+    /* не зрозумів, як зробити два бекграунди - або фон білий, або видно лого імейлу */
+
+}
+
+
+/* footer block */
+
+.footer_list {
+    margin-top: 950px;
+    padding-left: 186px;
+    padding-right: 194px;
+    padding-bottom: 86px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 83px;
+}
+
+.footer-jadoo {
+    color: #181E4B;
+    font-size: 44px;
+    font-weight: 500;
+    margin-top: -50px;
+}
+
+.footer-jadoo_desc {
+    width: 207px;
+    color: #5E6282;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 124.5%;
+    margin-top: -25px;
+}
+
+.footer_title {
+    color: #080809;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 124.5%;
+}
+
+.footer_title_desc {
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.8;
+}
+
+.footer_discover_logos {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer_insta-logo {
+    width: 45px;
+    height: 45px;
+    background: url(../assets/bacground-insta.png) no-repeat;
+    background-position: center;
+    border-radius: 45px;
+    /* я фіг його зна, чого я не можу бекграунд поставити більшого розміру, а сам лого інсти меншого */
+}
+
+.footer_discover_text {
+    color: #5E6282;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 124.5%;
+    letter-spacing: 0.1px;
+}
+
+.footer_discover_apps {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer_rights {
+    text-align: center;
+    padding-bottom: 79px;
+    color: #5E6282;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 124.5%;
+}
+
